@@ -5,4 +5,5 @@ It's not just software - it's a real assistant experience, combining the precisi
 PECMA works seamlessly with tools like Gmail and Google Calendar, adapting to your habits and returning your time, focus, and clarity.
 
 **Mission:** Bring humanity into technology
+
 **Tagline:** Technology that cares for you
