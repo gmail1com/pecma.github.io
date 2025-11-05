@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>PECMA | Executive Assistant AI</title>
+  <meta name="description" content="PECMA is an AI executive assistant that handles your emails, meetings, and daily organization - so you can focus on what matters." />
+  <link rel="icon" href="favicon.ico" type="image/x-icon" />
+  <meta property="og:title" content="PECMA | Executive Assistant AI" />
+  <meta property="og:description" content="Finally, an AI that works like a real EA." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://pecma.github.io" />
+  <meta property="og:image" content="https://pecma.github.io/og-cover.png" />
+  <style>
+    :root{
+      --bg: #f7e8d3;        /* Warm background */
+      --text: #000000;      /* Primary text */
+      --offwhite: #fffffe;  /* Off-white / contrast */
+      --accent: #efd1a8;    /* Accent / highlight */
+      --deep: #1a1a1a;      /* Deep dark */
+      --white: #ffffff;     /* Pure white */
+    }
+
+    /* Base */
+    html,body{height:100%}
+    body{
+      display:flex;
+      flex-direction: column;
+      justify-content: space-between;
+      margin:0;
+      font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji";
+      color: var(--text);
+      background-color: var(--bg);
+      line-height: 1.6;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale; 
+    }
+    .container{max-width:1100px;margin-inline:auto;padding:24px}
+    .stack{display:flex;flex-direction:column;gap:20px}
+    .hero{padding-block:56px}
+    .hero-inner{display:grid;grid-template-columns:1.3fr 1fr;gap:24px;align-items:center}
+    .logo{width:250px;height:auto}
+
+    h1{font-size:clamp(32px,4vw,52px);line-height:1.1;margin:10px 0 8px}
+    p.lead{font-size:clamp(18px,2.2vw,22px);margin:0 0 8px}
+    .tag{display:inline-block;background:var(--deep);color:var(--offwhite);padding:6px 10px;border-radius:999px;font-size:12px;letter-spacing:.35px}
+
+    .cta{display:flex;flex-wrap:wrap;gap:12px;margin-top:18px}
+    .btn{appearance:none;border:0;border-radius:12px;padding:14px 18px;font-weight:600;cursor:pointer;text-decoration:none;display:inline-flex;align-items:center;gap:10px}
+    .btn-primary{background:var(--deep);color:var(--offwhite);box-shadow:0 6px 18px rgba(0,0,0,.15)}
+    .btn-primary:hover{transform:translateY(-1px)}
+    .btn-ghost{background:transparent;color:var(--deep);outline:2px solid var(--deep)}
+    .btn-ghost:hover{background:var(--deep);color:var(--offwhite)}
+
+    /* Features */
+    .features{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px;margin-top:40px}
+    .card{background:linear-gradient(180deg, var(--white), var(--offwhite));border:1px solid rgba(0,0,0,.08);border-radius:16px;padding:18px;box-shadow:0 4px 12px rgba(0,0,0,.06)}
+    .card h3{margin:0 0 6px;font-size:18px}
+    .card p{margin:0;font-size:14px}
+
+    /* Trust / footer */
+    .trust{margin-top:28px;font-size:14px;color:#222}
+    .divider{height:1px;background:rgba(0,0,0,.1);margin:36px 0}
+
+    footer{padding-block:26px;font-size:14px;color:#222}
+    footer a{color:inherit}
+
+    /* Responsive */
+    @media (max-width:900px){
+      .hero-inner{grid-template-columns:1fr}
+      .logo{width:130px}
+      .features{grid-template-columns:1fr}
+    }
+  </style>
+</head>
+<body>
+  <header class="container" aria-label="Site header">
+    <nav style="width:1100px;display:flex;align-items:center;justify-content:space-between;gap:12px">
+      <div style="display:flex;align-items:center;gap:12px">
+        <img src="logo.svg" alt="PECMA logo" class="logo" />
+        <span aria-hidden="true" class="tag">Early access</span>
+      </div>
+      <div class="cta">
+        <a class="btn btn-ghost" href="mailto:asman.hudaykulyyev@gmail.com?subject=Shoot%20me%20anything!" aria-label="Email the founder">Email me personally</a>
+        <a class="btn btn-primary" href="https://www.linkedin.com/in/asman-hudaykulyyev" target="_blank" rel="noopener" aria-label="Talk on LinkedIn">Talk on LinkedIn</a>
+      </div>
+    </nav>
+  </header>
+
+  <main style="margin-bottom: 80px" class="container hero" aria-label="Main content">
+    <section class="hero-inner">
+      <div class="stack">
+        <h1>Your personal AI for email & calendar.</h1>
+        <p class="lead">PECMA is an AI executive assistant that handles your inbox, schedules meetings, and keeps your day under control - fast, discreet, and reliable.</p>
+        <div class="cta">
+          <a class="btn btn-primary" href="mailto:pecma.ai@gmail.com?subject=PECMA%20-%20Early%20Access" aria-label="Get early access by email">Get early access</a>
+          <a class="btn btn-ghost" href="https://buy.stripe.com/your-placeholder" aria-label="Buy placeholder link">Buy / Reserve (placeholder)</a>
+        </div>
+        <p class="trust">Works with Gmail & Google Calendar. Privacy-first by design.</p>
+      </div>
+      <div>
+        <div class="stack">
+          <div class="card"><h3>Inbox triage & drafting</h3><p>Summaries, priority sorting, and ready-to-send replies that match your tone.</p></div>
+          <div class="card"><h3>Scheduling & coordination</h3><p>Proposes times, sends holds, and keeps your calendar clean - without back-and-forth.</p></div>
+          <div class="card"><h3>Privacy & control</h3><p>Transparent permissions, clear audit trail, and data stays with your accounts.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 
+    <div class="divider" role="separator" aria-hidden="true"></div>
+
+    <section class="container" aria-label="Contact">
+      <h2 style="margin:0 0 8px;font-size:22px">Want to try it?</h2>
+      <p style="margin:0 0 14px">I’m onboarding a small number of founders and execs during early access. Ping me below.</p>
+      <div class="cta">
+        <a class="btn btn-primary" href="mailto:founder@example.com?subject=PECMA%20-%20Pilot%20request">Email the founder</a>
+        <a class="btn btn-ghost" href="https://www.linkedin.com/in/your-handle" target="_blank" rel="noopener">DM on LinkedIn</a>
+      </div>
+    </section> 
+    -->
+  </main>
+
+  <footer style="width: 1100px;" class="container" aria-label="Footer">
+    <div style="display:flex;flex-wrap:wrap;gap:12px;align-items:center;justify-content:space-between">
+      <small>© <span id="year"></span> PECMA. All rights reserved.</small>
+      <small>
+        <a href="#" aria-label="Privacy policy">Privacy</a> · 
+        <a href="#" aria-label="Terms of service">Terms</a>
+      </small>
+    </div>
+  </footer>
+
+  <!-- Minimal JS for copyright year only -->
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+
+  <!-- Structured data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "PECMA",
+    "url": "https://pecma.github.io",
+    "logo": "https://pecma.github.io/logo.svg",
+    "sameAs": [
+      "https://www.linkedin.com/in/asman-hudaykulyyev
+    ],
+    "contactPoint": [{
+      "@type": "ContactPoint",
+      "contactType": "customer support",
+      "email": "pecma.ai@gmail.com"
+    }]
+  }
+  </script>
+</body>
+</html>
